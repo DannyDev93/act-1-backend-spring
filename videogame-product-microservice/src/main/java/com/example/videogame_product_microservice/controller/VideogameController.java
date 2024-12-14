@@ -23,15 +23,16 @@ public class VideogameController {
     @Autowired
     VideogameService videogameService;
 
+    
+
     // Get all videogames
     @GetMapping()
     public List<Videogame> getAll() {
         return videogameService.getAll();
     }
 
-    // Get videogame by id
     @GetMapping("{id}")
-    public Optional<Videogame> getAll(@PathVariable(name = "id") String id) {
+    public Optional<Videogame> getById(@PathVariable(name = "id") String id) {
         return videogameService.getById(id);
     }
 
