@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "discovery-service"
+		},
+		{
+			"path": "videogame-product-microservice"
+		},
+		{
+			"path": "videogame-review-microservice"
+		},
+		{
+			"path": "api-gateway"
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
